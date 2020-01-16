@@ -1,0 +1,132 @@
+#navbar {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   color:white;
+   } 
+
+   #navbar a {
+       text-decoration: none;
+       font-weight: bold;
+       font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+
+   }
+
+   #navbar a:hover {
+       text-decoration: underline;
+   }
+li {
+    display: inline-block;
+    color: white;
+    margin: 20px;
+    font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+}
+
+a {
+    color:white;
+    margin-right: 20px;
+}
+
+#wolfheader {
+    font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 117px;
+    font-size: medium;
+    background-color: Black;
+    color: white;
+    
+}
+
+#wolfheader_logo {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+    }
+
+body {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5; 
+
+}
+h1 {
+    color:#000;
+    font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+    text-align: left;
+
+}
+    
+    #north_shelves {
+        width: auto;
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 2.5%;
+        margin-bottom: 5%;
+        
+      }
+      
+#shelf_name {
+    margin-left: 25%;
+    margin-top:2.5%;
+    margin-bottom: 0;
+}
+
+footer .footer-resources {
+    background-color:#000;
+    color:white;
+    padding: 1em;
+    font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.fa-facebook-f::before, .fa-facebook::before {
+    content: "\f09a";
+}
+
+.fa-twitter::before {
+    content: "\f099";
+}
+
+
+.fa-instagram::before {
+
+    content: "\f16d";
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer input[type="submit"] {
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    right: 0;
+    width: auto;
+    height: 100%;
+    font-size: 1.5em;
+    background:transparent;
+    border: none;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+}
+
+::before, ::after {
+    box-sizing: border-box;
+}
+

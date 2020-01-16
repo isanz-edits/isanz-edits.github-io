@@ -1,0 +1,161 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:white;
+    } 
+ 
+    #navbar a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+ 
+    }
+ 
+    #navbar a:hover {
+        text-decoration: underline;
+    }
+ li {
+     display: inline-block;
+     color: white;
+     margin: 20px;
+     font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+ }
+ 
+ a {
+     color:white;
+     margin-right: 20px;
+ }
+ 
+ #wolfheader {
+     font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 117px;
+     font-size: medium;
+     background-color: Black;
+     color: white;
+     
+ }
+ 
+ #wolfheader_logo {
+     width: 1000px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: left;
+     
+     }
+
+
+#gallery_header{
+   margin: 10%;
+   margin-top:2.5%;
+   margin-bottom: 0;
+}
+
+
+h1 {
+color:#000;
+font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+padding-top: 0;
+border: none;
+display: block;
+content: "";
+margin-top: 10px;
+line-height: 1.2em;
+font-size: 2em;
+text-align:left;
+}
+
+h2 {
+    color:#000;
+    font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+    padding-top: 0;
+    border: none;
+    display: block;
+    content: "";
+    line-height: 1.2em;
+    font-size: 1.5em;
+    text-align:left;
+    margin-bottom: 0%;
+    max-width: 75%;
+    text-decoration: underline;
+}
+p {
+font-size: 1rem;
+font-weight: normal;
+line-height: 1.6;
+margin-bottom: 2%;
+text-rendering: optimizeLegibility;
+font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+
+}
+#shelves_grid {
+margin: 10%;
+margin-top:0;
+max-width: 75%;
+}
+
+#img1 {
+width: 50%;
+max-width: 20%;
+height: auto;
+margin-left: 5%;
+margin-right:0;
+margin-top: 2.5%;
+margin-bottom: 5%;
+}
+
+@media screen and (max-width: 800px) {
+    #img1 {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+ footer .footer-resources {
+    background-color:#000;
+    color:white;
+    padding: 1em;
+    font-family: "Roboto","Verdana","Gill Sans","Lucida Grande","Helvetica Neue",Helvetica,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.fa-facebook-f::before, .fa-facebook::before {
+    content: "\f09a";
+}
+
+.fa-twitter::before {
+    content: "\f099";
+}
+
+
+.fa-instagram::before {
+
+    content: "\f16d";
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer input[type="submit"] {
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    right: 0;
+    width: auto;
+    height: 100%;
+    font-size: 1.5em;
+    background:transparent;
+    border: none;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+}
